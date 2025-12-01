@@ -1,3 +1,5 @@
+import React from 'react'
+import Home from './pages/Home.jsx'
 
 
 function App() {
@@ -5,12 +7,7 @@ function App() {
 
   return (
     <>
-      <div>
-       
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+    < Home />
     </>
   )
 }

@@ -14,9 +14,9 @@ export default function Card() {
 
   setCurrentIndex((prev) => {
     if (prev === mockProfiles.length - 1) {
-      return 0;      // ➤ LOOP: zurück zum ersten Profil
+      return 0;      
     }
-    return prev + 1; // ➤ normal zum nächsten
+    return prev + 1; 
   });
 };
 
@@ -35,10 +35,10 @@ export default function Card() {
   return (
     <div className="w-full h-full flex flex-col justify-between">
 
-      {/* CARD */}
+    
       <div className="card shadow-xl rounded-xl overflow-hidden bg-white flex-1 flex flex-col">
 
-        {/* Herz Animation */}
+        
         {isLiked && (
           <div className="absolute inset-0 flex items-center justify-center z-20 pointer-events-none">
             <Heart
@@ -48,10 +48,10 @@ export default function Card() {
           </div>
         )}
 
-        {/* Inhalt */}
+        
         {hasMoreProfiles ? (
           <>
-            {/* BILDBEREICH – dynamisch, responsive */}
+           
             <figure className="w-full flex-1">
               <img
                 src={currentProfile.imageUrl}
@@ -64,7 +64,7 @@ export default function Card() {
               />
             </figure>
 
-            {/* TEXT */}
+           
             <div className="p-4 bg-white">
               <h2 className="text-xl font-bold text-gray-800">
                 {currentProfile.name}
@@ -83,7 +83,7 @@ export default function Card() {
         )}
       </div>
 
-      {/* BUTTONS */}
+     
       {hasMoreProfiles && (
         <div className="flex w-full mt-4 space-x-3 ">
 

@@ -88,7 +88,7 @@ export default function Card() {
         <div className="flex w-full mt-4 space-x-3 ">
 
           <button
-            className="btn btn-outline flex-1 "
+            className="btn btn-outline flex-1 m-2 rounded-xl"
             onClick={handleSkip}
           >
             <X className="w-5 h-5 mr-2 " />
@@ -96,7 +96,7 @@ export default function Card() {
           </button>
 
           <button
-            className="btn flex-1 text-white bg-gradient-to-r from-pink-500 to-purple-600 border-0 hover:from-pink-600 hover:to-purple-700 shadow-md"
+            className="btn flex-1 text-white bg-gradient-to-r from-pink-500 to-purple-600 border-0 hover:from-pink-600 hover:to-purple-700 shadow-md m-2 rounded-xl"
             onClick={handleLike}
           >
             <Heart

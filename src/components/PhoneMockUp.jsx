@@ -1,6 +1,6 @@
 
 import Card from "./Card.jsx";
-import { useState } from 'react'
+
 
 export default function PhoneMockUp() {
 

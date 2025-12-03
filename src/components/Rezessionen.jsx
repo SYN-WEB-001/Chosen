@@ -5,16 +5,14 @@ export default function Rezensionen() {
     <section className="mt-16 py-12 md:py-20 bg-transparent">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
 
-        {/* Überschrift responsive gestalten */}
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">
+      
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900 dark:text-white">
           Erfahrungsberichte
         </h2>
 
-        {/* Grid System: 1 Spalte Mobile, 2 Tablet, 3 Desktop */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
           {testimonialsData.map(({ quote, name, location, rating, avatarUrl }, idx) => (
 
-            // h-full sorgt dafür, dass alle Karten gleich hoch sind
             <div
               key={idx}
               className="flex flex-col h-full p-6 md:p-8 shadow-lg hover:shadow-xl transition-shadow rounded-2xl bg-gradient-to-br from-white to-gray-200 text-gray-800 border border-gray-100"
@@ -26,7 +24,7 @@ export default function Rezensionen() {
                   className="w-14 h-14 rounded-full object-cover border-2 border-white shadow-sm"
                   onError={(e) => {
                     e.target.onerror = null;
-                    e.target.src = "https://placehold.co/100x100?text=User"; // Fallback Bild
+                    e.target.src = "https://placehold.co/100x100?text=User"; 
                   }}
                 />
                 <div>
@@ -35,7 +33,6 @@ export default function Rezensionen() {
                 </div>
               </div>
 
-              {/* flex-grow drückt die Sterne nach unten, falls Text kurz ist */}
               <p className="italic text-gray-700 mb-6 flex-grow leading-relaxed">
                 "{quote}"
               </p>

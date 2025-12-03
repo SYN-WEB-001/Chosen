@@ -7,7 +7,7 @@ export default function PhoneMockUp() {
     return (
         <>
 
-            <div className="mockup-phone border-[#ff8938] rotate-5 shadow-2xl">
+            <div className="mockup-phone border-[#ff8938] rotate-9 shadow-2xl">
                 <div className="mockup-phone-camera"></div>
                 <div className="mockup-phone-display">
 

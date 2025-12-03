@@ -12,15 +12,8 @@ export default function EarlyAccessForm() {
 
   return (
     <div className="flex justify-center w-full px-4">
-      <div
-        className="
-            relative w-full max-w-md 
-            mt-10 md:mt-20 mb-10
-            p-6 md:p-10
-            rounded-3xl 
-            text-white 
-            bg-gradient-to-br from-pink-500 to-purple-600 
-            shadow-2xl font-sans"
+        <div
+        className="relative w-full max-w-md mt-10 md:mt-20 mb-10 p-6 md:p-10 rounded-3xl  text-white bg-linear-to-br from-pink-500 to-purple-600  shadow-2xl font-sans"
         style={{
           boxShadow: '0 20px 40px rgba(0, 0, 0, 0.4)',
         }}
@@ -79,7 +72,7 @@ export default function EarlyAccessForm() {
             className="
                 btn w-full text-lg font-bold 
                 text-white border-0 py-4 mt-2 rounded-xl
-                shadow-lg hover:shadow-xl hover:scale-[1.02] active:scale-95 transition-all duration-200 bg-gradient-to-br from-pink-500 to-purple-600"
+                shadow-lg hover:shadow-xl hover:scale-[1.02] active:scale-95 transition-all duration-200 bg-linear-to-br from-pink-500 to-purple-600"
 
           >
             Benachrichtigen Sie mich

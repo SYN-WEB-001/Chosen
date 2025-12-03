@@ -7,11 +7,11 @@ export default function Home() {
     return (
         <div>
             <HeroSection />
-            <CTA /> 
+            <CTA />
             {/* <EarlyAccessForm /> */}
             < Rezession />
-            <BaldVerfuegbar/>
+            <BaldVerfuegbar />
         </div>
-         
+
     );
 }

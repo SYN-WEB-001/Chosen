@@ -22,20 +22,20 @@ export default function EarlyAccessForm() {
             bg-gradient-to-br from-pink-500 to-purple-600 
             shadow-2xl font-sans"
         style={{
-          boxShadow: '0 20px 40px rgba(0, 0, 0, 0.4)', // Etwas stärkerer Schatten für Tiefe
+          boxShadow: '0 20px 40px rgba(0, 0, 0, 0.4)',
         }}
       >
         <h2 className="text-xl md:text-2xl font-bold mb-4 md:mb-6 text-center leading-tight">
           Jetzt unverbindlich vorregistrieren.
         </h2>
-        
+
         <p className="text-center text-sm md:text-base text-white/90 mb-6 md:mb-8 leading-relaxed">
           Sei einer der Ersten und teste Chosen – die App, die dich mit Menschen verbindet,
           die gerade jetzt in deiner Nähe sind.
         </p>
 
         <form onSubmit={handleSubmit} className="flex flex-col space-y-4">
-          
+
           <input
             type="text"
             placeholder="Dein Name"
@@ -80,7 +80,7 @@ export default function EarlyAccessForm() {
                 btn w-full text-lg font-bold 
                 text-white border-0 py-4 mt-2 rounded-xl
                 shadow-lg hover:shadow-xl hover:scale-[1.02] active:scale-95 transition-all duration-200 bg-gradient-to-br from-pink-500 to-purple-600"
-            
+
           >
             Benachrichtigen Sie mich
           </button>

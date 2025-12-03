@@ -7,33 +7,31 @@ export default function CTA() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Hier würde die tatsächliche API-Anmeldung oder Datenverarbeitung stattfinden.
+
         alert(`Angemeldet mit:\nName: ${name}\nE-Mail: ${email}\nInteressen: ${interests}\n\nDanke für dein Interesse!`);
-        
-        // Formular zurücksetzen (optional)
+
+
         setName('');
         setEmail('');
         setInterests('');
     };
 
     return (
-        // Root-Container für die gesamte Card
-        // Starker Kontrast, großer Schatten und Akzentrand
+
         <div className="  bg-gradient-to-br from-pink-500 to-purple-600  text-white p-6 md:p-10 lg:p-12 rounded-3xl shadow-2xl max-w-6xl mx-auto my-10 border-4">
-            
-            {/* Grid-Container: Auf mittelgroßen Bildschirmen (md) in zwei Spalten */}
+
+
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
-                
-                {/* 1. Spalte: Text und Haupt-Headline */}
+
                 <div className="flex flex-col space-y-6">
-                    
-                    {/* Haupt-Headline / CTA-Fokus */}
+
+
                     <h1 className="text-4xl sm:text-5xl lg:text-5xl font-extrabold leading-tight tracking-tight">
                         Early Access sichern!
                         <span className="block text-white mt-2">Werde eine*r der ersten Nutzer*innen.</span>
                     </h1>
-                    
-                    {/* Begleittext */}
+
+
                     <div className="text-lg md:text-xl opacity-90">
                         <p className="mb-4">
                             Wir verbringen mehr Zeit online als je zuvor - und trotzdem fühlen sich viele Menschen isolierter an.
@@ -47,7 +45,7 @@ export default function CTA() {
                     </div>
                 </div>
 
-                {/* 2. Spalte: Formular-Bereich */}
+
                 <div className="p-6  bg-gradient-to-br from-pink-500 to-purple-600/70 rounded-2xl self-stretch"> {/* self-stretch damit der Hintergrund die ganze Höhe einnimmt */}
                     <h2 className="text-2xl font-bold mb-4 text-center leading-tight ttext-white">
                         Jetzt unverbindlich vorregistrieren.
@@ -56,7 +54,7 @@ export default function CTA() {
                     <p className="text-center text-base text-white/90 mb-6 leading-relaxed">
                         Sei eine*r der Ersten und teste <strong className='text-white'>CHOSEN</strong>.
                     </p>
-                    
+
                     <form onSubmit={handleSubmit} className="flex flex-col space-y-4">
 
                         <input

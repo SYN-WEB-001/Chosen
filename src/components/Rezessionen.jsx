@@ -1,31 +1,48 @@
 import testimonialsData from "./data/testimonials.json";
 
-export default function Rezession() {
+export default function Rezensionen() {
   return (
-    <section className="mt-15 py-16">
-      <div className="max-w-4xl mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-10">Erfahrungsberichte</h2>
+    <section className="mt-16 py-12 md:py-20 bg-transparent">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+        
+        {/* Überschrift responsive gestalten */}
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">
+          Erfahrungsberichte
+        </h2>
 
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        {/* Grid System: 1 Spalte Mobile, 2 Tablet, 3 Desktop */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
           {testimonialsData.map(({ quote, name, location, rating, avatarUrl }, idx) => (
-            <div key={idx} className="p-6 shadow-xl rounded-2xl bg-gradient-to-br from-gray-50 to-gray-400  text-black">
-              <div className="flex items-center gap-4 mb-4">
+            
+            // h-full sorgt dafür, dass alle Karten gleich hoch sind
+            <div 
+              key={idx} 
+              className="flex flex-col h-full p-6 md:p-8 shadow-lg hover:shadow-xl transition-shadow rounded-2xl bg-gradient-to-br from-white to-gray-200 text-gray-800 border border-gray-100"
+            >
+              <div className="flex items-center gap-4 mb-6">
                 <img
                   src={avatarUrl}
                   alt={name}
-                  className="w-14 h-14 rounded-full object-cover"
+                  className="w-14 h-14 rounded-full object-cover border-2 border-white shadow-sm"
+                  onError={(e) => {
+                    e.target.onerror = null;
+                    e.target.src = "https://placehold.co/100x100?text=User"; // Fallback Bild
+                  }}
                 />
                 <div>
-                  <p className="font-semibold">{name}</p>
-                  <p className="text-sm text-black">{location}</p>
+                  <p className="font-bold text-lg leading-tight">{name}</p>
+                  <p className="text-sm text-gray-500">{location}</p>
                 </div>
               </div>
 
-              <p className="italic mb-4">"{quote}"</p>
+              {/* flex-grow drückt die Sterne nach unten, falls Text kurz ist */}
+              <p className="italic text-gray-700 mb-6 flex-grow leading-relaxed">
+                "{quote}"
+              </p>
 
-              <div className="flex gap-1">
+              <div className="flex gap-1 mt-auto">
                 {[...Array(rating)].map((_, i) => (
-                  <span key={i}>⭐</span>
+                  <span key={i} className="text-yellow-500 text-lg">⭐</span>
                 ))}
               </div>
             </div>

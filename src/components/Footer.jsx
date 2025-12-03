@@ -7,7 +7,7 @@ export default function Footer() {
     <a className="link link-hover font-semibold">About us</a>
     <a className="link link-hover font-semibold">Contact</a>
     <a className="link link-hover font-semibold">Jobs</a>
-    <a className="link link-hover font-semibold">Press kit</a>
+    <a className="link link-hover font-semibold">Press Kit</a>
   </nav>
   <nav>
     <div className="grid grid-flow-col gap-4">
@@ -47,7 +47,7 @@ export default function Footer() {
     </div>
   </nav>
   <aside>
-    <p>Copyright © {new Date().getFullYear()} - Alle Rechte vorbehalten von Chossen GmbH.</p>
+    <p>Copyright © {new Date().getFullYear()} - Alle Rechte vorbehalten von Chosen GmbH.</p>
   </aside>
 </footer>
     )

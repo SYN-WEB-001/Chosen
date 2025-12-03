@@ -6,10 +6,10 @@ function App() {
 
 
   return (
-    <div >
+    <>
       < Home />
       <Footer />
-    </div>
+    </>
   )
 }
 

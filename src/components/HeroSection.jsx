@@ -3,7 +3,7 @@ import PhoneMockUp from "./PhoneMockUp";
 export default function HeroSection() {
   return (
     <section
-      className="hero-section relative w-full py-16 md:py-24 lg:py-32 overflow-hidden bg-cover bg-center  rounded-3xl shadow-2xl max-w-6xl mx-auto my-10 border-4 text-white"
+      className="hero-section relative w-full py-16 md:py-24 lg:py-32 overflow-hidden bg-cover bg-center  "
       style={{
         backgroundImage: "url('/Hintergrundbild.jpg')",
       }}

@@ -2,7 +2,7 @@
 export default function Footer() {
 
   return (
-    <footer className="footer footer-horizontal footer-center bg-gray-300 text-base-content rounded-3xl p-10 mt-10  shadow-2xl max-w-6xl mx-auto my-10 border-4[#ffffff]">
+    <footer className="footer footer-horizontal footer-center bg-gray-300 text-base-content rounded p-10 mt-10  ">
       <nav className="grid grid-flow-col gap-4">
         <a className="link link-hover font-semibold">About us</a>
         <a className="link link-hover font-semibold">Contact</a>

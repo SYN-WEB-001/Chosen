@@ -10,9 +10,9 @@ const PlatformsComingSoon = () => {
       className="p-6 rounded-2xl w-full max-w-3xl mx-auto 
                 shadow-xl text-white 
                 bg-gradient-to-r from-pink-500 to-purple-600 
-                font-sans text-center">
+                font-sans text-center bg-gradient-to-br from-pink-500 to-purple-600  text-white p-6 md:p-10 lg:p-12 rounded-3xl shadow-2xl max-w-6xl mx-auto my-10 border-4">
 
-      <h3 className="text-xl font-semibold mb-4 text-white">
+      <h3 className="text-4xl font-semibold mb-4 text-white">
         Bald Verfügbar !
       </h3>
       <div className="flex justify-center items-center text-lg md:text-xl font-medium space-x-4 divide-x divide-white/50">

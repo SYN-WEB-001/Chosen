@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, forwardRef } from 'react';
 
-export default function CTA() {
+
+const CTA = forwardRef((props, ref) => {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [interests, setInterests] = useState('');
@@ -17,7 +18,7 @@ export default function CTA() {
     };
 
     return (
-        <>
+        <div ref={ref}>
         <div> 
             <h1 className="text-2xl md:text-4xl font-bold text-center mb-2 mt-40">
                 Wenn du dabei sein willst jetzt anmelden, bevor die letzten Plätze weg sind.
@@ -96,6 +97,9 @@ export default function CTA() {
                 </div>
             </div>
         </div>
-        </>
+        </div>
+        
     )
-}
+});
+
+export default CTA;

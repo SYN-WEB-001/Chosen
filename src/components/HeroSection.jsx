@@ -1,5 +1,5 @@
 import PhoneMockUp from "./PhoneMockUp";
-import DarkModeToggle from "../components/DarkModeToggle";
+
 export default function HeroSection() {
     return (
         <section
@@ -10,11 +10,8 @@ export default function HeroSection() {
         >
 
             <div className="absolute inset-0 bg-white/30 backdrop-blur-[1px]"></div>
-
-
-
             <div className="relative container mx-auto px-4 sm:px-6 lg:px-8">
-                < DarkModeToggle />
+               
                 <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
 
                     <div className="mb-0 lg:mb-1">

@@ -17,6 +17,11 @@ export default function CTA() {
     };
 
     return (
+        <>
+        <div> 
+            
+        </div>
+
 
         <div className="  bg-gradient-to-br from-pink-500 to-purple-600  text-white p-6 md:p-10 lg:p-12 rounded-3xl shadow-2xl max-w-6xl mx-auto my-10 border-4">
 
@@ -93,5 +98,6 @@ export default function CTA() {
                 </div>
             </div>
         </div>
+        </>
     )
 }

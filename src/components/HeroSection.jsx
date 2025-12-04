@@ -10,11 +10,11 @@ export default function HeroSection() {
         >
 
             <div className="absolute inset-0 bg-white/30 backdrop-blur-[1px]"></div>
-           
+
 
 
             <div className="relative container mx-auto px-4 sm:px-6 lg:px-8">
-             < DarkModeToggle />
+                < DarkModeToggle />
                 <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
 
                     <div className="mb-0 lg:mb-1">
@@ -49,12 +49,12 @@ export default function HeroSection() {
                     </div>
 
 
-                    <div className="w-full lg:w-2/5 flex justify-center lg:justify-end  ">
-
-                        <div className="transform scale-90 sm:scale-70">
+                    <div className="w-full lg:w-2/5 flex justify-center lg:justify-end">
+                        <div className="transform scale-90 sm:scale-70 hover:scale-80 vibrate">
                             <PhoneMockUp />
                         </div>
                     </div>
+
 
                 </div>
             </div>

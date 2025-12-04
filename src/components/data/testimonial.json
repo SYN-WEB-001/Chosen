@@ -1,0 +1,72 @@
+{
+  "testimonial_1": {
+    "de": {
+      "quote": "Ich habe darüber zwei neue Freunde kennengelernt!",
+      "name": "Sarah W.",
+      "location": "Berlin"
+    },
+    "en": {
+      "quote": "I made two new friends through it!",
+      "name": "Sarah W.",
+      "location": "Berlin"
+    },
+    "rating": 5,
+    "avatarUrl": "/Girl1.jpg"
+  },
+  "testimonial_2": {
+    "de": {
+      "quote": "Endlich eine App, die lokale Begegnungen wieder möglich macht.",
+      "name": "Max P.",
+      "location": "München"
+    },
+    "en": {
+      "quote": "Finally an app that makes local encounters possible again.",
+      "name": "Max P.",
+      "location": "Munich"
+    },
+    "rating": 5,
+    "avatarUrl": "/Max.png"
+  },
+  "testimonial_3": {
+    "de": {
+      "quote": "Super intuitiv, und die Benutzeroberfläche ist extrem einladend.",
+      "name": "Lena K.",
+      "location": "Hamburg"
+    },
+    "en": {
+      "quote": "Super intuitive, and the user interface is extremely inviting.",
+      "name": "Lena K.",
+      "location": "Hamburg"
+    },
+    "rating": 4,
+    "avatarUrl": "/Lena.png"
+  },
+  "testimonial_4": {
+    "de": {
+      "quote": "Definitiv der richtige Weg, um Gleichgesinnte in der Nähe zu treffen.",
+      "name": "Tom E.",
+      "location": "Köln"
+    },
+    "en": {
+      "quote": "Definitely the right way to meet like-minded people nearby.",
+      "name": "Tom E.",
+      "location": "Cologne"
+    },
+    "rating": 5,
+    "avatarUrl": "/Tom.png"
+  },
+  "testimonial_5": {
+    "de": {
+      "quote": "Kein sinnloses Swipen mehr! Fokus auf Purpose.",
+      "name": "Mina S.",
+      "location": "Frankfurt"
+    },
+    "en": {
+      "quote": "No more pointless swiping! Focus on purpose.",
+      "name": "Mina S.",
+      "location": "Frankfurt"
+    },
+    "rating": 5,
+    "avatarUrl": "/Mina.png"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "de": {
+    "title1": "Early Access sichern!",
+    "title2": "Werde eine*r der ersten Nutzer*innen.",
+    "p1_part1": "Wir verbringen mehr Zeit online als je zuvor - und trotzdem fühlen sich viele Menschen isolierter an.",
+    "p1_strong": "CHOSEN bringt die echten Begegnungen zurück.",
+    "p2": "Die App zeigt dir Menschen, die zur gleichen Zeit am gleichen Ort sind wie du. Ganz ohne Swipen. Ohne Chat-Bots. Ohne Oberflächlichkeit. Einfach echte Menschen. Echte Nähe. Echt jetzt.",
+    "formTitle": "Jetzt unverbindlich vorregistrieren.",
+    "formSubtitle": "Sei eine*r der Ersten und teste CHOSEN.",
+    "inputNamePlaceholder": "Dein Name",
+    "inputEmailPlaceholder": "E-Mail Adresse",
+    "inputInterestsPlaceholder": "Dein Interesse (z.B. Reisen, Essen) - Optional",
+    "buttonText": "Jetzt Early Access sichern",
+    "alertMessage": "Angemeldet mit:\nName: {name}\nE-Mail: {email}\nInteressen: {interests}\n\nDanke für dein Interesse!"
+  },
+  "en": {
+    "title1": "Secure Early Access!",
+    "title2": "Be one of the first users.",
+    "p1_part1": "We spend more time online than ever before – yet many people feel more isolated.",
+    "p1_strong": "CHOSEN brings back real-life encounters.",
+    "p2": "The app shows you people who are in the same location at the same time as you. Without swiping. Without chat bots. Without superficiality. Just real people. Real proximity. Real now.",
+    "formTitle": "Register non-bindingly now.",
+    "formSubtitle": "Be one of the first and test CHOSEN.",
+    "inputNamePlaceholder": "Your Name",
+    "inputEmailPlaceholder": "Email Address",
+    "inputInterestsPlaceholder": "Your Interests (e.g., Travel, Food) - Optional",
+    "buttonText": "Secure Early Access Now",
+    "alertMessage": "Registered with:\nName: {name}\nEmail: {email}\nInterests: {interests}\n\nThank you for your interest!"
+  }
+}

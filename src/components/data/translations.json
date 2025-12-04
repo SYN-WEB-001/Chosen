@@ -1,0 +1,20 @@
+{
+  "de": {
+    "languageIconText": "DE",
+    "heroTitlePart1": "CHOSEN",
+    "heroTitlePart2": "Für Verbindungen, die zählen.",
+    "heroSubtitle": "Das soziale Netzwerk für tiefgehende Passionen. Schluss mit oberflächlichem Scrollen. Finde dein Tribe – mit Purpose.",
+    "feature1": "📍 Sehe in Echtzeit, wer am selben Ort ist.",
+    "feature2": "💬 Starte direkt ein Gespräch ohne Hürden.",
+    "feature3": "⚡ Profil in Sekunden, Kontakte in Minuten."
+  },
+  "en": {
+    "languageIconText": "EN",
+    "heroTitlePart1": "CHOSEN",
+    "heroTitlePart2": "For connections that matter.",
+    "heroSubtitle": "The social network for deep passions. No more superficial scrolling. Find your tribe – with purpose.",
+    "feature1": "📍 See who is in the same location in real-time.",
+    "feature2": "💬 Start a conversation directly without barriers.",
+    "feature3": "⚡ Profile in seconds, contacts in minutes."
+  }
+}

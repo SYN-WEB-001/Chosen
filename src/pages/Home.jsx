@@ -1,19 +1,25 @@
+import { useRef } from "react"
 import HeroSection from "../components/HeroSection";
-
+import CTA from "../components/CTA.jsx"
 import Rezession from "../components/Rezessionen.jsx";
-import BaldVerfuegbar from "../components/BaldVerfügbar.jsx";
+import  PlatformsComingSoon from "../components/PlatformsComingSoon.jsx"; 
 
 
-import CTA from "../components/CTA.jsx";
 export default function Home() {
+    const ctaRef = useRef(null);
+    const scrollToCTA = () => {
+        ctaRef.current?.scrollIntoView({ behavior: "smooth"});
+    };
+
     return (
         <div>
            
             <HeroSection />
-            <CTA />
+            <CTA ref={ctaRef}/>
 
             < Rezession />
-            <BaldVerfuegbar />
+            <PlatformsComingSoon scrollToCTA={scrollToCTA} />
+
         </div>
 
     );

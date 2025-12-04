@@ -1,9 +1,9 @@
 import React from 'react';
-import { FcAndroidOs } from "react-icons/fc";
-import apple from '../icon/apple.png';
-import windows from '../icon/windows.png';
+import { DiAndroid } from "react-icons/di";
+import { FaApple } from "react-icons/fa";
+import { BsWindows } from "react-icons/bs";
 
-const PlatformsComingSoon = () => {
+const PlatformsComingSoon = ({scrollToCTA}) => {
   return (
     <>
       <div>
@@ -23,20 +23,29 @@ const PlatformsComingSoon = () => {
 
         <div className="flex justify-center items-center text-lg md:text-xl font-medium space-x-4 divide-x divide-white/50">
           <div className="flex items-center space-x-2 pr-4">
-            <img src={apple} alt="Apple" className="w-10 h-10 md:w-14 md:h-14" />
+            < FaApple className="w-10 h-10 md:w-14 md:h-14" />
             <span>iOS</span>
           </div>
           <div className="flex items-center space-x-2 px-4">
-            <FcAndroidOs className="w-14 h-12 md:w-16 md:h-16" />
+            <DiAndroid className="w-10 h-10 md:w-14 md:h-14" />
             <span>Android</span>
           </div>
 
           <div className="flex items-center space-x-2 pl-4">
-            <img src={windows} alt="Windows" className="w-10 h-10 md:w-14 md:h-14" />
+            <BsWindows className="w-10 h-10 md:w-14 md:h-14" />
             <span> Windows</span>
           </div>
         </div>
       </div>
+       <button
+        type="button"
+        onClick={scrollToCTA}
+        className="btn text-lg font-bold text-white border-none h-auto p-4 rounded-xl shadow-lg m-auto flex justify-center items-center mb-10"
+        style={{ background: 'linear-gradient(145deg,#8a5ee0,#cc69e7)', boxShadow:'0 5px 15px rgba(0,0,0,0.2)'}}
+      >
+        JETZT REGISTRIEREN
+      </button>
+     
     </>
   );
 };

@@ -1,16 +1,15 @@
 import * as yup from "yup";
 
-export default yup.object({
+const LoginSchemas = yup.object().shape({
   name: yup
-    .string().required("Bitte gib deinen Namen ein")
-    .min(2, "Der Name muss mindestens 2 Zeichen lang sein"),
+    .string()
+    .required("Bitte gib deinen Namen ein")
+    .matches(/^[A-Za-zÄÖÜäöüß ]{3,}$/, "Name muss mindestens 3 Buchstaben haben"),
   email: yup
     .string()
-    .required("Bitte gib eine Email ein")
-    .min(5, "Email muss mindestens 5 Zeichen lang sein")
-    .matches(/^[^\s@]+@[^\s@]+\.[^\s@]+$/, "Bitte gib eine gültige Email ein"),
-  dein_interesse: yup
-    .string()
-    .required("Bitte gib Dein Interesse ein")
-
+    .required("Bitte gib deine E-Mail ein")
+    .email("Bitte eine gültige E-Mail-Adresse eingeben"),
+  interests: yup.string(), 
 });
+
+export default LoginSchemas;

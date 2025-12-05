@@ -11,7 +11,7 @@ export default function HeroSection() {
 
             <div className="absolute inset-0 bg-white/30 backdrop-blur-[1px]"></div>
             <div className="relative container mx-auto px-4 sm:px-6 lg:px-8">
-               
+
                 <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
 
                     <div className="mb-0 lg:mb-1">
@@ -33,15 +33,15 @@ export default function HeroSection() {
 
                         <div className="flex flex-col sm:flex-row gap-4 text-center sm:gap-6 justify-center lg:justify-start text-black sm:text-base ">
                             <div className="bg-white/50 p-3 rounded-lg backdrop-blur-md shadow-sm border border-white/20 flex-1">
-                            <h1 className="font-bold mb-1">Begegnungen in Echtzeit!</h1>
+                                <h1 className="font-bold mb-1">Begegnungen in Echtzeit!</h1>
                                 <p>Sehe in Echtzeit, wer am selben Ort ist.</p>
                             </div>
                             <div className="bg-white/50 p-3 rounded-lg backdrop-blur-md shadow-sm border border-white/20 flex-1">
-                            <h1 className="font-bold mb-1">Keine Planung!</h1>
+                                <h1 className="font-bold mb-1">Keine Planung!</h1>
                                 <p> Starte direkt ein Gespräch ohne Hürden.</p>
                             </div>
                             <div className="bg-white/50 p-3 rounded-lg backdrop-blur-md shadow-sm border border-white/20 flex-1">
-                            <h1 className="font-bold mb-1">Finde Leute!</h1>
+                                <h1 className="font-bold mb-1">Finde Leute!</h1>
                                 <p> Profil in Sekunden, Kontakte in Minuten.</p>
                             </div>
                         </div>

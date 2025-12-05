@@ -23,7 +23,7 @@ export default function Card() {
     <div className="w-full h-full flex flex-col justify-between">
       <div className="card shadow-xl rounded-xl overflow-hidden bg-white flex-1 flex flex-col relative">
 
-      
+
         {isLiked && (
           <div className="absolute inset-0 flex items-center justify-center z-20 pointer-events-none">
             <Heart
@@ -33,7 +33,7 @@ export default function Card() {
           </div>
         )}
 
-       
+
         {hasMore ? (
           <>
             <figure className="w-full flex-1">
@@ -65,7 +65,7 @@ export default function Card() {
         )}
       </div>
 
-     
+
       {hasMore && (
         <div className="flex w-full mt-4 space-x-3">
           <button

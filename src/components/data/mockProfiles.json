@@ -4,34 +4,39 @@
     "name": "Sarah, 28",
     "location": "Berlin",
     "imageUrl": "Girl1.jpg",
-    "bgColor": "bg-blue-300"
+    "bgColor": "bg-blue-300",
+    "interessen":  "Reisen"
   },
   {
     "id": 2,
     "name": "Tom, 31",
     "location": "Hamburg",
     "imageUrl": "Tom.png",
-    "bgColor": "bg-orange-300"
+    "bgColor": "bg-orange-300",
+    "interessen": "Sport"
   },
   {
     "id": 3,
     "name": "Lena, 25",
     "location": "München",
     "imageUrl": "Lena.png",
-    "bgColor": "bg-green-300"
+    "bgColor": "bg-green-300",
+    "interessen": "Kunst"
   },
   {
     "id": 4,
     "name": "Max, 30",
     "location": "Berlin",
     "imageUrl": "Max.png",
-    "bgColor": "bg-pink-300"
+    "bgColor": "bg-pink-300",
+    "interessen": "Musik"
   },
   {
     "id": 5,
     "name": "Ali, 32",
     "location": "Erding",
     "imageUrl": "Ali.png",
-    "bgColor": "bg-pink-300"
+    "bgColor": "bg-pink-300",
+    "interessen": "Fussball"
   }
 ]

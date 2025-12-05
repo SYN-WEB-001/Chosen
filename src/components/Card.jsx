@@ -40,6 +40,7 @@ export default function Card() {
               <img
                 src={profile.imageUrl}
                 alt={profile.name}
+
                 className="w-full h-full object-cover"
                 onError={(e) => {
                   e.target.onerror = null;
@@ -51,7 +52,7 @@ export default function Card() {
 
             <div className="p-4 bg-white">
               <h2 className="text-xl font-bold text-gray-800">{profile.name}</h2>
-              <p className="text-gray-500">{profile.location}</p>
+              <p className="text-gray-500">{profile.location},{profile.interessen}</p>
             </div>
           </>
         ) : (
